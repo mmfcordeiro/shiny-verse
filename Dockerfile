@@ -17,6 +17,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libssl-dev \
   libcurl4-openssl-dev \
   libssh2-1-dev \
+  libgeos-dev \
   unixodbc-dev \
   && R -e "source('https://bioconductor.org/biocLite.R')" \
   && install2.r --error \
