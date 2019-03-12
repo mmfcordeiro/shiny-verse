@@ -1,4 +1,6 @@
-# rocker/shiny-verse
+# mmfcordeiro/shiny-verse
+
+fork from rocker/shiny
 
 The `rocker/shiny-verse` image adds the `tidyverse` suite (and
 `devtools` suite) of R packages to the `rocker:shiny` images.
