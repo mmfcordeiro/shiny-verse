@@ -22,6 +22,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   libproj-dev \
   libudunits2-dev \
   unixodbc-dev \
+  libv8-dev \
   && R -e "source('https://bioconductor.org/biocLite.R')" \
   && install2.r --error \
     --deps TRUE \
